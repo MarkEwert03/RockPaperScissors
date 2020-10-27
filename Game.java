@@ -78,7 +78,7 @@ class Game{
 
     public static void result(){
         if (outcome == WIN) {
-            wins++;
+            losses++;
             System.out.println("I win! You are noy a challange for me...");
         }
         else if (outcome == TIE) {
@@ -86,7 +86,7 @@ class Game{
             System.out.println("A draw... pretty good, human! I demand a rematch...");
         }
         else if (outcome == LOSE) {
-            losses++;
+            wins++;
             System.out.println("Whaaa??... You beat me? RAGE!");
         }
         System.out.println("");
